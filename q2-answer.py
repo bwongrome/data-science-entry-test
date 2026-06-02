@@ -1,7 +1,7 @@
 def find_and_replace(lst, find_val, replace_val):
-	for i in range(len(lst)):
-        	if lst[i] == find_val:
-                	lst[i] = replace_val
+    for i in range(len(lst)):
+            if lst[i] == find_val:
+                lst[i] = replace_val
     return lst
 
 
