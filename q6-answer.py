@@ -3,7 +3,7 @@ def find_first_negative(lst):
         while i< len(lst):
                 if lst[i] < 0:
                     return lst[i]
-        i += 1
+                i += 1
         return "No negatives"
 
 # Task 2
