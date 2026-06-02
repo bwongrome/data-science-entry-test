@@ -1,7 +1,5 @@
 def check_divisibility(num, divisor):
-	if divisor == 0:
-        	raise ValueError("Division by zero is not allowed")
-    return num % divisor == 0
+	    return num % divisor == 0
 
 
 # Task 2
