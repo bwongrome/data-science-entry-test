@@ -1,11 +1,10 @@
 def find_first_negative(lst):
-	i = 0
-    	while i < len(lst):
-           if lst[i] < 0:
-            	return lst[i]
+        i = 0
+        while i< len(lst):
+                if lst[i] < 0:
+                    return lst[i]
         i += 1
-    return "No negatives"
-
+        return "No negatives"
 
 # Task 2
 # Invoke the function "find_first_negative" using the following scenario:
